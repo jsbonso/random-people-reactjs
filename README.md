@@ -5,7 +5,7 @@
 - The modal contains the full details of the users such as the name, address, phone and many more.
 
 <p align="center">
-![Alt Text](https://github.com/jsbonso/random-people-reactjs/blob/master/RandomPeople-ReactJS.gif)
+<img src="https://github.com/jsbonso/random-people-reactjs/blob/master/RandomPeople-ReactJS.gif" alt="Random People Screencast">
 </p>
 
 ## See it in action here: https://jsbonso.github.io/random-people-reactjs/

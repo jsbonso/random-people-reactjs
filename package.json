@@ -2,6 +2,8 @@
   "name": "random-people-reactjs",
   "version": "0.1.0",
   "private": true,
+  "author": "Jon Bonso",
+  "homepage": "https://jsbonso.github.io/random-people-reactjs",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -54,6 +56,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "node scripts/start.js",
@@ -63,8 +67,9 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.9.0",
-    "normalize-scss": "^7.0.0",
+    "normalize-scss": "^7.0.1",
     "sass-loader": "^7.0.1",
     "webpack": "^4.10.2"
   },

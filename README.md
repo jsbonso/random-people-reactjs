@@ -4,8 +4,9 @@
 - A modal will pop-up will show up when you click one of the people
 - The modal contains the full details of the users such as the name, address, phone and many more.
 
-
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+<p align="center">
+![Alt Text](https://github.com/jsbonso/random-people-reactjs/blob/master/RandomPeople-ReactJS.gif)
+</p>
 
 ## See it in action here: https://jsbonso.github.io/random-people-reactjs/
 

@@ -1,4 +1,4 @@
-# Random Person Generator
+# Random People Gallery with Modal Details
 
 - A responsive React + Redux App that shows a list of random people with details
 - Mobile-responsive design - grid result changes on different screens (mobile, tablet, desktop)
